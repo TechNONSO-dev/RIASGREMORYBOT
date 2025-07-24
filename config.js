@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BR
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
 global.devs = "2348086541281";
-global.sudo = process.env.SUDO || "2348086541281";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.sudo = process.env.SUDO || "2349169324243";
+global.owner = process.env.OWNER_NUMBER || "2349169324243";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,7 +42,7 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "{"noiseKey":{"private":{"type":"Buffer","data":"mAQtFy95mNWQr5RJQDJd6SDC4wEnMO/IhZ33SptHamA="},"public":{"type":"Buffer","data":"pWiik7IM4hyflH7L8ix+kilrM4xjPnBMPDBqXJ9A33g="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"GNNp8XdFNnjOxUD0jXW8LHs2Xn8Ew3KYlb1+3yAPk0M="},"public":{"type":"Buffer","data":"7kJSXwa6/ebLWzFwnJ2rCOH1bk7I4rapCGOgjiwFCjM="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"4Mgwpvz8SybD8Gfxxpt48IFAxnPrAKPXeCgOihznEUs="},"public":{"type":"Buffer","data":"2FROArjGh9F7H2Z4jKq02r+vgFvcd/2pfUCDqGW36VU="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"aMEUfM4ZsG63XJfi8BTeQa+TqYiO2jB5WEGA3i5622o="},"public":{"type":"Buffer","data":"pPCTJ4zvmjx8aLFSvlYKQAcjcWtIsSMvZ3n691elHzk="}},"signature":{"type":"Buffer","data":"bbRAsqpIdp7TRhgj6OfAuul/m7BQdimnCDHTFIXWh2YwSNOEd7arqncVmr6YsPm3q5b+U3ZPTpp64nkFcMRMiQ=="},"keyId":1},"registrationId":113,"advSecretKey":"xCeZrYa5tE8u1Yhm48F7dVqNaJZ6DB1UDyXvjD7RIlM=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"BP_HyI7vTIuMoASeUCdj4g","phoneId":"bd45fa11-bdc2-4483-a45c-d81e6dd88d35","identityId":{"type":"Buffer","data":"IOBzD4XL7NDzB4NC0TO1MCXVPyU="},"registered":true,"backupToken":{"type":"Buffer","data":"z80q9aVBLQcbNwzAf2F0gFYjFVU="},"registration":{},"pairingCode":"CYRILDEV","me":{"id":"2349169324243:11@s.whatsapp.net","lid":"37976721625104:11@lid"},"account":{"details":"CPi+2skCENOPicQGGAEgACgA","accountSignatureKey":"EaEHDrA8KDE61XuJEW3961bO14P8/3UEb+CAOBNLHxs=","accountSignature":"2UwkbYHsUDjdXNUnsGSxWMLJ8R/vw8WvGHoVohx/JXPex8qHK8G9aoNHyOSgyd/xHY3EvaQ/hwz7ymRtVRZmDg==","deviceSignature":"2caqNIyFGMyGcw7YQYSfAx5nIf7lY+rbmdY4pV7UhiNFX3iUyyOIb5JWJFtKwhrOBdsY32VZ+vz6XhTJ8TTfgw=="},"signalIdentities":[{"identifier":{"name":"2349169324243:11@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BRGhBw6wPCgxOtV7iRFt/etWzteD/P91BG/ggDgTSx8b"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CA0IBQ=="},"lastAccountSyncTimestamp":1753368540,"lastPropHash":"3gPUJk","preKeys":{"private":{"type":"Buffer","data":"ABJB9TGnKQFzRmIRU6ikfnwceCGnH2L96jsP4rMvX0w="},"public":{"type":"Buffer","data":"W4N4fZKawMUOQRBkL3LdgRPsBiX8BC2m2h43Z+DiS1E="}},"senderKeys":{},"timestamp":"2025-07-24T14:49:05.563Z"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
